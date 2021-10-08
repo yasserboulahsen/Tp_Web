@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(231, 246, 255);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  background-color: #006fb7;
+  margin: 0.5rem 0;
+  padding: 1em;
+  color: white;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  border-color: #abdbdd;
+  color: #abdbdd;
+  box-shadow: 0 0.5em 0.5em -0.25em #abdbdd;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+section {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  /* background-image: url("https://images.unsplash.com/photo-1632968665243-0c4eaaeedcc7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"); */
+}
+
+#uname {
+  background: none;
+  color: white;
+  border: 2px solid white;
+  padding: 1em 2em;
+  font-size: 1em;
+  margin: 0.5rem 0;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+#uform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div {
+  background-color: rgba(0, 0, 0, 0.452);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+#password {
+  color: white;
+  background: none;
+  border: 2px solid white;
+  padding: 1em 2em;
+  font-size: 1em;
+  margin: 0.5rem 0;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  margin: 1.5rem 0;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  div {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 300px) {
+  div {
+    width: 100%;
+  }
+}
